@@ -36,18 +36,22 @@
             this.Print_from_java_like_singleton_method_property = new System.Windows.Forms.Button();
             this.Print_from_java_like_singleton_method = new System.Windows.Forms.Button();
             this.Tbx_singletons_static_classes = new System.Windows.Forms.RichTextBox();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.button1 = new System.Windows.Forms.Button();
+            this.Tbx_external_libraries = new System.Windows.Forms.RichTextBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
+            this.tabPage3.SuspendLayout();
             this.SuspendLayout();
             // 
             // Tbx_references_between_instances
             // 
             this.Tbx_references_between_instances.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.Tbx_references_between_instances.Location = new System.Drawing.Point(302, 6);
+            this.Tbx_references_between_instances.Location = new System.Drawing.Point(302, 3);
             this.Tbx_references_between_instances.Name = "Tbx_references_between_instances";
-            this.Tbx_references_between_instances.Size = new System.Drawing.Size(516, 453);
+            this.Tbx_references_between_instances.Size = new System.Drawing.Size(516, 456);
             this.Tbx_references_between_instances.TabIndex = 0;
             this.Tbx_references_between_instances.Text = "";
             // 
@@ -55,7 +59,7 @@
             // 
             this.Print_directly_to_textbox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.Print_directly_to_textbox.Location = new System.Drawing.Point(4, 6);
+            this.Print_directly_to_textbox.Location = new System.Drawing.Point(4, 3);
             this.Print_directly_to_textbox.Name = "Print_directly_to_textbox";
             this.Print_directly_to_textbox.Size = new System.Drawing.Size(292, 23);
             this.Print_directly_to_textbox.TabIndex = 1;
@@ -67,7 +71,7 @@
             // 
             this.Print_via_form1_reference.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.Print_via_form1_reference.Location = new System.Drawing.Point(4, 35);
+            this.Print_via_form1_reference.Location = new System.Drawing.Point(4, 32);
             this.Print_via_form1_reference.Name = "Print_via_form1_reference";
             this.Print_via_form1_reference.Size = new System.Drawing.Size(292, 23);
             this.Print_via_form1_reference.TabIndex = 1;
@@ -79,7 +83,7 @@
             // 
             this.Print_via_textbox_reference.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.Print_via_textbox_reference.Location = new System.Drawing.Point(4, 64);
+            this.Print_via_textbox_reference.Location = new System.Drawing.Point(4, 61);
             this.Print_via_textbox_reference.Name = "Print_via_textbox_reference";
             this.Print_via_textbox_reference.Size = new System.Drawing.Size(292, 23);
             this.Print_via_textbox_reference.TabIndex = 1;
@@ -91,7 +95,7 @@
             // 
             this.Print_from_another_thread.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.Print_from_another_thread.Location = new System.Drawing.Point(4, 93);
+            this.Print_from_another_thread.Location = new System.Drawing.Point(4, 90);
             this.Print_from_another_thread.Name = "Print_from_another_thread";
             this.Print_from_another_thread.Size = new System.Drawing.Size(292, 23);
             this.Print_from_another_thread.TabIndex = 1;
@@ -103,7 +107,7 @@
             // 
             this.Print_via_reference_multiple_layers_down.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.Print_via_reference_multiple_layers_down.Location = new System.Drawing.Point(4, 122);
+            this.Print_via_reference_multiple_layers_down.Location = new System.Drawing.Point(4, 119);
             this.Print_via_reference_multiple_layers_down.Name = "Print_via_reference_multiple_layers_down";
             this.Print_via_reference_multiple_layers_down.Size = new System.Drawing.Size(292, 23);
             this.Print_via_reference_multiple_layers_down.TabIndex = 1;
@@ -115,6 +119,7 @@
             // 
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
@@ -156,7 +161,7 @@
             // 
             this.Print_from_static_class.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.Print_from_static_class.Location = new System.Drawing.Point(4, 64);
+            this.Print_from_static_class.Location = new System.Drawing.Point(4, 61);
             this.Print_from_static_class.Name = "Print_from_static_class";
             this.Print_from_static_class.Size = new System.Drawing.Size(292, 23);
             this.Print_from_static_class.TabIndex = 3;
@@ -168,7 +173,7 @@
             // 
             this.Print_from_java_like_singleton_method_property.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.Print_from_java_like_singleton_method_property.Location = new System.Drawing.Point(4, 35);
+            this.Print_from_java_like_singleton_method_property.Location = new System.Drawing.Point(4, 32);
             this.Print_from_java_like_singleton_method_property.Name = "Print_from_java_like_singleton_method_property";
             this.Print_from_java_like_singleton_method_property.Size = new System.Drawing.Size(292, 23);
             this.Print_from_java_like_singleton_method_property.TabIndex = 2;
@@ -180,7 +185,7 @@
             // 
             this.Print_from_java_like_singleton_method.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.Print_from_java_like_singleton_method.Location = new System.Drawing.Point(4, 6);
+            this.Print_from_java_like_singleton_method.Location = new System.Drawing.Point(4, 3);
             this.Print_from_java_like_singleton_method.Name = "Print_from_java_like_singleton_method";
             this.Print_from_java_like_singleton_method.Size = new System.Drawing.Size(292, 23);
             this.Print_from_java_like_singleton_method.TabIndex = 2;
@@ -192,11 +197,44 @@
             // 
             this.Tbx_singletons_static_classes.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.Tbx_singletons_static_classes.Location = new System.Drawing.Point(302, 6);
+            this.Tbx_singletons_static_classes.Location = new System.Drawing.Point(302, 3);
             this.Tbx_singletons_static_classes.Name = "Tbx_singletons_static_classes";
-            this.Tbx_singletons_static_classes.Size = new System.Drawing.Size(516, 453);
+            this.Tbx_singletons_static_classes.Size = new System.Drawing.Size(516, 456);
             this.Tbx_singletons_static_classes.TabIndex = 1;
             this.Tbx_singletons_static_classes.Text = "";
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Controls.Add(this.button1);
+            this.tabPage3.Controls.Add(this.Tbx_external_libraries);
+            this.tabPage3.Location = new System.Drawing.Point(4, 24);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Size = new System.Drawing.Size(826, 465);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "External libraries";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.button1.Location = new System.Drawing.Point(4, 3);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(292, 23);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Print from another project";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // Tbx_external_libraries
+            // 
+            this.Tbx_external_libraries.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.Tbx_external_libraries.Location = new System.Drawing.Point(302, 3);
+            this.Tbx_external_libraries.Name = "Tbx_external_libraries";
+            this.Tbx_external_libraries.Size = new System.Drawing.Size(516, 459);
+            this.Tbx_external_libraries.TabIndex = 3;
+            this.Tbx_external_libraries.Text = "";
             // 
             // Form1
             // 
@@ -209,6 +247,7 @@
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
+            this.tabPage3.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -228,5 +267,8 @@
         private RichTextBox Tbx_singletons_static_classes;
         private Button Print_from_static_class;
         private Button Print_from_java_like_singleton_method_property;
+        private TabPage tabPage3;
+        private Button button1;
+        private RichTextBox Tbx_external_libraries;
     }
 }

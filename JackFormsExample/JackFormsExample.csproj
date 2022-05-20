@@ -8,4 +8,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\this project compiles to a dll file\this project compiles to a dll file.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,6 +1,7 @@
 
 using JackFormsExample.referencing;
 using JackFormsExample.singletons;
+using this_project_compiles_to_a_dll_file;
 
 namespace JackFormsExample {
     public partial class Form1 : Form {
@@ -72,6 +73,11 @@ namespace JackFormsExample {
 
         private void Print_from_static_class_Click(object sender, EventArgs e) {
             Example_static_class.Print();
+        }
+
+        private void button1_Click(object sender, EventArgs e) {
+            Tbx_external_libraries.Text += new Printer_from_different_project().Get_Text();
+            Tbx_external_libraries.Text += "\r\n";
         }
     }
 }
