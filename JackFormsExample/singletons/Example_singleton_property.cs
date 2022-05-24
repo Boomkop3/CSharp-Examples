@@ -1,5 +1,10 @@
 ﻿namespace JackFormsExample.singletons {
     public class Example_singleton_property {
+
+        private Example_singleton_property() {
+
+        }
+
         private static Example_singleton_property? _instance = null;
         public static Example_singleton_property instance {
             get {
